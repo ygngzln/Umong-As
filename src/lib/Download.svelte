@@ -5,7 +5,8 @@
         a.style.color = "orangered"
         a.style.border = "14px solid darkred"
     }
-
+    let src = window.location.href.replace("/download", "") + "/sussy.zip"
+    
     function exit(){
         a.style.background = "repeating-linear-gradient(deepskyblue, lightblue)"
         a.style.color = "black"
@@ -13,7 +14,7 @@
     }
 </script>
 
-<a href="/src/assets/sussy.zip" download="Umong-As-Game" bind:this={a} on:mouseenter={enter} on:mouseleave={exit}>Download</a>
+<a href={src} download="Umong-As-Game" bind:this={a} on:mouseenter={enter} on:mouseleave={exit}>Download</a>
 <div>OR YOU SUSSY >:(</div>
 
 <style>

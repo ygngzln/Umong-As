@@ -1,4 +1,5 @@
 <script lang="ts">
+    import umogas from '../assets/umogas.png'
     let splash:any;
 
     let randomList:Array<any> = ["2020 Hit Game!", "Red Sus", "Imposter!!", "I have the high ground!", "Umogas", "Wut da dawg doin?", "Hacker!!!", "RED VENTED", "Which planet is this???", "Robux."]
@@ -23,7 +24,7 @@
 </div>
 <div id="splashtext" bind:this={splash}>{randomList[x]}</div>
 
-<img src="/src/assets/umogas.png" alt="Umogas No Load" width="900" height="800"/>
+<img src={umogas} alt="Umogas No Load" width="900" height="800"/>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');

@@ -1,26 +1,30 @@
 <script lang="ts">
-
+    import red from '../assets/shopitems/umogasplushiered.png'
+    import blue from '../assets/shopitems/umogasplushieblue.png'
+    import pink from '../assets/shopitems/umogasplushiepink.png'
+    import hat from '../assets/shopitems/umonghat.png'
+    import sun from '../assets/shopitems/sun.png'
 </script>
 
 <div id="cont">
     <div class="plush">
-        <img id="red" src="/src/assets/shopitems/umogasplushiered.png" alt="Plush no load :(" />
+        <img id="red" src={red} alt="Plush no load :(" />
         <span class="text"> RED PLUSHIE 6in x 12in x 2in <span class="cost">$69.99</span> </span>
     </div>
     <div class="plush">
-        <img id="blue" src="/src/assets/shopitems/umogasplushieblue.png" alt="Plush no load :(" />
+        <img id="blue" src={blue} alt="Plush no load :(" />
         <span class="text">BLUE PLUSHIE 6in x 12in x 2in <span class="cost">$69.99</span></span>
     </div>
     <div class="plush">
-        <img id="pink" src="/src/assets/shopitems/umogasplushiepink.png" alt="Plush no load :(" />
+        <img id="pink" src={pink} alt="Plush no load :(" />
         <span class="text">PINK PLUSHIE 6in x 12in x 2in <span class="cost">$69.99</span></span>
     </div>
     <div id="hat">
-        <img id="hat" src="/src/assets/shopitems/umonghat.png" alt="Hat no load :(" width="200" height="200"/>
+        <img id="hat" src={hat} alt="Hat no load :(" width="200" height="200"/>
         <span class="text">GRAY UMOGAS HAT <span class="cost">$420.69</span></span>
     </div>
     <div id="sun">
-        <img id="sun" src="/src/assets/shopitems/sun.png" alt="Sun no load :(" width="200" height="200"/>
+        <img id="sun" src={sun} alt="Sun no load :(" width="200" height="200"/>
         <span class="text">1x1 MODEL OF THE "SUN" MAP Diameter: 865,000 Miles <span class="cost">$Your Soul</span></span>
     </div>
 </div>
